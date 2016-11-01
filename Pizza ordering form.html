@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza ordering form</title>
+    <style>
+        body { text-align: center;
+               background-color: #fff9d8;
+               color: red;}
+        h1 { font-size: 4em;}
+    </style>
+</head>
+<body>
+    <h1>PIZZA</h1>
+    <hr>
+    <form method="POST" action="http://requestb.in/1igb2an1">
+        <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+        </p>
+        <p>What toppings do you want?</p>
+        <label>
+            <input type="checkbox" id="topping 1" name="topping" value="pepperoni">
+            pepperoni
+        </label>
+        <label>
+            <input type="checkbox" id="topping 2" name="topping" value="mushrooms">
+            mushrooms
+        </label>
+        <label>
+            <input type="checkbox" id="topping 3" name="topping" value="anchovies">
+            anchovies
+        </label>
+        <p>Pickup or delivery?</p>
+        <label>
+            <input type="radio" name="delivery" value="pickup">
+            pickup
+        </label>
+        <label>
+            <input type="radio" name="delivery" value="delivery">
+            delivery
+        </label>
+        <p>
+        <label for="crust">Type of crust?</label>
+        <select id="crust" name="crust">
+            <option value="thin">thin</option>
+            <option value="pan">pan</option>
+            <option value="stuffed">stuffed</option>
+        </select>
+        </p>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

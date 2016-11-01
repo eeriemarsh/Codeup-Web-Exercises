@@ -1,0 +1,14 @@
+.flagstripe {
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+#green {
+    background-color: #009246;
+}
+#white {
+    background-color: #ffffff;
+}
+#red {
+    background-color: #ce2b37;
+}
